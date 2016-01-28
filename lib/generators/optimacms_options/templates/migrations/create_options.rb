@@ -1,9 +1,9 @@
-class OptimacmsOptionsCreate < ActiveRecord::Migration
+class CreateOptions < ActiveRecord::Migration
   def change
     create_table :options do |t|
       t.string :name, :null => false
       t.string :title, :null => false
-      t.string :title, :null => false
+      t.string :option_type, :null => false
       t.text :description, :null => true
       t.boolean :is_changed, :null => true, :default=>1
       t.string :category, :null => true
