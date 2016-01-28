@@ -3,12 +3,12 @@ require 'rails/generators/migration'
 require 'rails/generators/active_record'
 
 
-module OptimacmsOptions
+module SimpleOptions
   module Generators
     class InstallGenerator < ::Rails::Generators::Base
       include Rails::Generators::Migration
 
-      desc "Installs callback_request_bootstrap and generates the necessary migrations"
+      desc "Install options"
       source_root File.expand_path("../templates", __FILE__)
 
 
