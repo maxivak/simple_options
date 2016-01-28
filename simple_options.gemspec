@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.name        = "simple_options"
   s.version     = SimpleOptions::VERSION
   s.authors     = ["Max Ivak"]
-  s.email       = ["max.ivak@galacticexchange.io"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimpleOptions."
-  s.description = "TODO: Description of SimpleOptions."
+  s.email       = ["maxivak@gmail.com"]
+  s.homepage    = "https://github.com/maxivak/simple_options"
+  s.summary     = "Edit settings of the application"
+  s.description = "Edit settings (options)"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
