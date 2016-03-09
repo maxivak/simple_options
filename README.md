@@ -5,9 +5,8 @@ Rails gem to edit settings (options).
 # Installation
 Gemfile:
 
-gem 'callback_request_bootstrap'
 ```
-gem 'simple_form'
+gem 'simple_options'
 ```
 
 bundle it:
@@ -35,4 +34,12 @@ Get option value
 v = Option.get('site_name', '')
 
 ```
+
+Set option value:
+```
+Option.set('site_name', 'my super site')
+
+```
+
+
 
